@@ -1,0 +1,45 @@
+/* taken from https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/a5315728ccdf4f0792a0bc3c349e8329/?child=first */
+html {
+    height: 100%;
+}
+
+/* from Bulma */
+
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* bootstrap expanded classes */
+
+/* half way between mt-5 and what would be mt-6 */
+
+
+.text-black {
+    color: #000 !important;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+/************************************ base header */
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+header p, i {
+    color: #198754;
+}
+
+/************************************ home */
+
+.home-image {
+    background: url("/media/image-not-found.jpg") no-repeat center center fixed ;
+    background-size: cover;
+    height: calc(100vh - 164px);
+}
