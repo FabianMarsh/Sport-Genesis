@@ -16,6 +16,7 @@ information, username, gender and so forth.
 * [SQLite](https://www.sqlite.org/index.html): A C-language library that implements a light weight, fast SQL database engine.
 * [django-allauth](https://django-allauth.readthedocs.io/en/latest/): Enables to project to use multiple authtication schemes and account verfication.
 * [Bootstrap](https://getbootstrap.com/): Used styling provided to quickly position content as well as create bespoke styling with custom css.
+* [Font Awesome](https://fontawesome.com/): The vase array of icons were used as intuitive design to help users find and understand features that were designed in an already established manner. 
 
 ## Testing
 
