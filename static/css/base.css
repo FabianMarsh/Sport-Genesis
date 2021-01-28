@@ -15,9 +15,6 @@ html {
 
 /* bootstrap expanded classes */
 
-/* half way between mt-5 and what would be mt-6 */
-
-
 .text-black {
     color: #000 !important;
 }
@@ -26,14 +23,17 @@ html {
     background-color: #000;
 }
 
+
+
 /************************************ base header */
 
-.logo-font {
-    text-transform: uppercase;
+header a {
+    color: rgba(0,0,0,.55);
 }
 
-header p, i {
-    color: #198754;
+.logo {
+    text-transform: uppercase;
+    padding: .5rem 0;
 }
 
 /************************************ home */
