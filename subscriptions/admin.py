@@ -2,5 +2,20 @@ from django.contrib import admin
 from .models import Subscriptions, Category
 
 # Register your models here.
-admin.site.register(Subscriptions)
-admin.site.register(Category)
+
+class SubscriptionsAdmin(admin.ModelAdmin):
+    list_display = (
+        "name",
+        "category",
+        "price",
+        "image",
+    )
+
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = (
+        "friendly_name",
+        "name",
+    )
+
+admin.site.register(Subscriptions, SubscriptionsAdmin)
+admin.site.register(Category, CategoryAdmin)
