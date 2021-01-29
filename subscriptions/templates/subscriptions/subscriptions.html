@@ -7,6 +7,20 @@
 
 {% block content %}
     <div class="container mt-3">
-        {{ subscriptions }}
+        <div class="row">
+            {% for sub in subscriptions %}
+                <div class="col-12 col-md-4 col-xl-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="{{ sub.name }}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ sub.name }}</h5>
+                            <p class="card-text">{{ sub.description }}</p>
+                            <h6>£{{ sub.price }}</h6>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>    
+            {% endfor %}
+        </div>
     </div>
 {% endblock %}

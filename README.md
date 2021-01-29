@@ -25,8 +25,15 @@ information, username, gender and so forth.
 
 ## Credits
 
+### Media
+
+* daily-sub.jpg: Came from http://photopin.com/free-photos/working-out-gym
+* weekly-sub-unlimited.jpg: Came from http://photopin.com/free-photos/working-out-gym
+* monthly-sub.jpg https://www.bahrain-confidential.com/tag/gyms/
+
 ### Acknowledgement
 
 * [PureGym](https://www.puregym.com/membership-options/): Subscription/home page
 * [thegym](https://www.thegymgroup.com/login/): Payment, login, register
 * [Rhinos](https://www.rhinosgymnasium.co.uk/): Membership Options + Why join us page
+* [LeisureSK](https://www.leisuresk.co.uk/membership-and-offers): Was used as a guide for gym membership prices.

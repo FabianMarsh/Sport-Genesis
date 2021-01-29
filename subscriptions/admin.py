@@ -11,6 +11,8 @@ class SubscriptionsAdmin(admin.ModelAdmin):
         "image",
     )
 
+    ordering = ("name",)
+
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
         "friendly_name",
