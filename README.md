@@ -27,9 +27,9 @@ information, username, gender and so forth.
 
 ### Media
 
-* daily-sub.jpg: Came from http://photopin.com/free-photos/working-out-gym
-* weekly-sub-unlimited.jpg: Came from http://photopin.com/free-photos/working-out-gym
-* monthly-sub.jpg https://www.bahrain-confidential.com/tag/gyms/
+* daily-sub.jpg: Came from https://www.forbes.com/sites/nomanazish/2019/02/28/whens-the-best-time-to-exercise-morning-or-evening/?sh=2b8b39216d3c
+* weekly-sub-unlimited.jpg: Came from https://www.pennmedicine.org/updates/blogs/neuroscience-blog/2017/may/multiple-sclerosis-and-exercise
+* monthly-sub.jpg https://www.webmd.com/fitness-exercise/ss/slideshow-7-most-effective-exercises
 
 ### Acknowledgement
 

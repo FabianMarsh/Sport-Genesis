@@ -11,7 +11,7 @@ class SubscriptionsAdmin(admin.ModelAdmin):
         "image",
     )
 
-    ordering = ("name",)
+    ordering = ("price",)
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
