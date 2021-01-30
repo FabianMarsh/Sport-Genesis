@@ -1,10 +1,8 @@
 from django.contrib import admin
-from .models import Subscriptions, Category
-
-# Register your models here.
+from .models import Products, Category
 
 
-class SubscriptionsAdmin(admin.ModelAdmin):
+class ProductsAdmin(admin.ModelAdmin):
     list_display = (
         "name",
         "category",
@@ -21,5 +19,5 @@ class CategoryAdmin(admin.ModelAdmin):
         "name",
     )
 
-admin.site.register(Subscriptions, SubscriptionsAdmin)
+admin.site.register(Products, ProductsAdmin)
 admin.site.register(Category, CategoryAdmin)

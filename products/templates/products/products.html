@@ -8,19 +8,19 @@
 {% block content %}
     <div class="container mt-3">
         <div class="row">
-            {% for sub in subscriptions %}
+            {% for product in products %}
                 <div class="col-12 col-md-4 col-xl-3 d-flex align-items">
                     <div class="card bg-success" style="width: 18rem;">
-                        <img src="{{ sub.image_url }}" class="card-img-top" alt="{{ sub.name }}">
+                        <img src="{{ product.image_url }}" class="card-img-top" alt="{{ product.name }}">
                         <div class="card-body">
-                            <h5 class="card-title">{{ sub.name }}</h5>
+                            <h5 class="card-title">{{ product.name }}</h5>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">{{ sub.description }}</li>
-                            <li class="list-group-item"><strong>£{{ sub.price }}</strong></li>
+                            <li class="list-group-item">{{ product.description }}</li>
+                            <li class="list-group-item"><strong>£{{ product.price }}</strong></li>
                         </ul>
                         <div class="card-body">
-                            <a href="#" class="btn btn-primary">Sign Up Today!</a>
+                            <a href="#" class="btn btn-primary">Add To Bag</a>
                         </div>
                     </div>   
                 </div>
