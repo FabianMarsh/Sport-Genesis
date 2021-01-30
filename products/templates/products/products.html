@@ -11,12 +11,16 @@
             {% for product in products %}
                 <div class="col-12 col-md-4 col-xl-3 d-flex align-items">
                     <div class="card bg-success" style="width: 18rem;">
-                        <img src="{{ product.image_url }}" class="card-img-top" alt="{{ product.name }}">
+                        {% if product.image %}
+                            <img src="{{ product.image_url }}" class="card-img-top" alt="{{ product.name }}">
+                        {% else %}
+                            <img src="{{ DEFAULT_IMAGE }}" class="card-img-top" alt="{{ product.name }}">
+                        {% endif %}
                         <div class="card-body">
                             <h5 class="card-title">{{ product.name }}</h5>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">{{ product.description }}</li>
+                            <li class="list-group-item">{{ product.rating }}</li>
                             <li class="list-group-item"><strong>£{{ product.price }}</strong></li>
                         </ul>
                         <div class="card-body">

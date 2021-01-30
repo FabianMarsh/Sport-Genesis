@@ -26,11 +26,18 @@ information, username, gender and so forth.
 ## Credits
 
 ### Media
-
+Images came from the following sources:
 * daily-sub.jpg: Came from https://www.forbes.com/sites/nomanazish/2019/02/28/whens-the-best-time-to-exercise-morning-or-evening/?sh=2b8b39216d3c
 * weekly-sub-unlimited.jpg: Came from https://www.pennmedicine.org/updates/blogs/neuroscience-blog/2017/may/multiple-sclerosis-and-exercise
-* monthly-sub.jpg https://www.webmd.com/fitness-exercise/ss/slideshow-7-most-effective-exercises
+* monthly-sub.jpg: https://www.webmd.com/fitness-exercise/ss/slideshow-7-most-effective-exercises
+* women's-sports-top: https://www.amazon.co.uk/Intimuse-Womens-Sports-Top-Racerback/dp/B01J7JTZHI 
+* kirland-sports.jfif: https://www.costcobusinessdelivery.com/kirkland-signature-sports-drink%2C-variety%2C-20-oz%2C-24-ct.product.100381590.html
+* dumbbells.jfif: https://www.argos.co.uk/product/8527554
 
+Text used within the project came from the following sources:
+* Kirkland Sports Drink - Description: https://www.amazon.com/Kirkland-Signature-Sport-Drink-Count/dp/B00WWNKWL0
+* Women's Sports Top - Description: https://www.amazon.co.uk/Intimuse-Womens-Sports-Top-Racerback/dp/B01J7JTZHI 
+* Dumbbells - Description: https://www.argos.co.uk/product/8527554
 ### Acknowledgement
 
 * [PureGym](https://www.puregym.com/membership-options/): Subscription/home page
