@@ -12,9 +12,13 @@
                 <div class="col-12 col-md-4 col-xl-3 d-flex align-items">
                     <div class="card bg-success" style="width: 18rem;">
                         {% if product.image %}
-                            <img src="{{ product.image_url }}" class="card-img-top" alt="{{ product.name }}">
+                            <a href="{% url 'product_detail' product.id %}">
+                                <img src="{{ product.image_url }}" class="card-img-top" alt="{{ product.name }}">
+                            </a>
                         {% else %}
-                            <img src="{{ DEFAULT_IMAGE }}" class="card-img-top" alt="{{ product.name }}">
+                            <a href="{% url 'product_detail' product.id %}">
+                                <img src="{{ DEFAULT_IMAGE }}image-not-found.jpg" class="card-img-top" alt="{{ product.name }}">
+                            </a>
                         {% endif %}
                         <div class="card-body">
                             <h5 class="card-title">{{ product.name }}</h5>
